@@ -1,0 +1,43 @@
+.eyes {
+  position: absolute;
+  width: 195px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.eye {
+  background-color: white;
+  height: 40px;
+  width: 65px;
+  border-radius: 100%;
+  border-top: 3px solid #d3a088;
+  border-bottom: 3px solid #d3a088;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.eye::before {
+  content: '';
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  background-color: #6f7660;
+  border-radius: 100%;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.eye::after {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #333;
+  border-radius: 100%;
+  margin-left: 15px;
+  margin-bottom: 7px;
+}
+/*# sourceMappingURL=Eye.css.map */
