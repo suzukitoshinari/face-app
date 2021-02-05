@@ -4,6 +4,39 @@
   height: 125px;
   background-color: #9c4d0d;
   margin-bottom: 300px;
-  border-radius: 50% 100% 0 0;
+  border-radius: 50% 100% 5% 5%;
+}
+
+.all__modal {
+  height: 100vh;
+  width: 100vw;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #383633;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .3s, visibility .3s;
+}
+
+.open {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal__container {
+  background-color: #fff;
+  padding: 30px 20px;
+  position: relative;
+}
+
+.modal__close {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 /*# sourceMappingURL=Hair.css.map */

@@ -1,4 +1,4 @@
-import '../../components/Eye/Eye.scss';
+import './Eye.scss';
 
 const Eye = () => {
     return(

@@ -1,9 +1,9 @@
-import '../../components/Hair/Hair.scss';
+import './Hair.scss';
 
-const Eye = () => {
+const Hair = () => {
     return (
         <div className={'hair'}></div>
     );
 };
 
-export default Eye;
+export default Hair;

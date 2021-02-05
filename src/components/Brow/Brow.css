@@ -1,0 +1,15 @@
+.brows {
+  position: absolute;
+  width: 195px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brow {
+  width: 65px;
+  height: 32px;
+  border-top: 10px solid #5f4530;
+  border-radius: 100%;
+  margin-bottom: 35px;
+}
+/*# sourceMappingURL=Brow.css.map */

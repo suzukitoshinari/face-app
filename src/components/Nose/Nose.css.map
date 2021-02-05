@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACF,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,GAAG,CAAC,KAAK,CAAC,OAAiB;EACnC,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,aAAa;EAC5B,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,KAAK;CACpB",
+    "sources": [
+        "Nose.scss"
+    ],
+    "names": [],
+    "file": "Nose.css"
+}

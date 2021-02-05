@@ -1,4 +1,4 @@
-import '../../components/Head/Head.scss';
+import './Head.scss';
 
 const Head = () => {
     return(

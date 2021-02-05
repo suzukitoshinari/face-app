@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAC;EACH,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CACjC;;AAED,AAAA,KAAK,CAAC;EACF,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,IAAI,CAAC,KAAK,CAAC,OAAiB;EACxC,aAAa,EAAE,IAAI;EACnB,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "Brow.scss"
+    ],
+    "names": [],
+    "file": "Brow.css"
+}
