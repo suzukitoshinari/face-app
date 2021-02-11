@@ -2,6 +2,7 @@ import React, {useState, useRef} from 'react';
 import './App.scss';
 import Head from './components/Head/Head';
 import Hair from './components/Hair/Hair';
+import hairParts_1 from './components/Hair/HairParts';
 import Brow from './components/Brow/Brow';
 import Eye from './components/Eye/Eye';
 import Nose from './components/Nose/Nose';
@@ -11,7 +12,7 @@ function App() {
 
   // const [head, setHead] = useState(<Head />);
   const [modal, setModal] = useState(false);
-  const modalRef = useRef()
+  const modalRef = useRef<HTMLDivElement>(null);
 
   const modalBtn = (e) => {
     e.preventDefault();
@@ -32,13 +33,15 @@ function App() {
 
   return (
     <>
-      <div className={'form'}>
-        <form>
+      <div className={'conteiner'}>
           <div className={'btns'}>
-            <button className={'btn1'} onSubmit={modalBtn}>輪郭</button>
-            <div className={`'all__modal' ${modal && 'open'}`} onSubmit={modal__ref} ref={modalRef}>
+            <button className={'btn1'} onClick={modalBtn}>輪郭</button>
+            <div className={`all__modal ${modal && 'open'}`} onClick={modal__ref} ref={modalRef}>
               <div className={'modal__container'}>
-                <button className={'modal__close'} onSubmit={modal__closeBtn}>✖️</button>
+                <button className={'modal__close'} onClick={modal__closeBtn}>✖️</button>
+                <div className={'hair__contents'}>
+                  <label className={'hair__content'}><hairParts_1 /></label>
+                </div>
               </div>
             </div>
             <button className={'btn2'}>髪型</button>
@@ -47,7 +50,6 @@ function App() {
             <button className={'btn5'}>鼻</button>
             <button className={'btn6'}>口</button>
           </div>
-        </form>
       </div>
       <div className={'root'}>
         <Head />

@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-.form {
+.conteiner {
   width: 100vw;
   height: 100px;
 }
@@ -28,5 +28,55 @@
   width: 7em;
   height: 6em;
   border-radius: 40px;
+}
+
+.all__modal{
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .3s, visibility .3s;
+}
+
+.open{
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal__container{
+  background-color: #fff;
+  width: 40em;
+  height: 30em;
+  padding: 30px 20px;
+  position: relative;
+}
+
+.modal__close{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.hair__contents {
+  background-color: #eee;
+  width: 10em;
+  height: 10em;
+  border: 1px solid black;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hair__content {
+  width: px;
 }
 
